@@ -1,0 +1,33 @@
+<!DOCTYPE<!DOCTYPE<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Chatbot Personalizado</title>
+</head>
+<body>
+    <div class="container">
+        <div class="chat-box">
+            <div class="chat-container" id="chat"></div>
+        </div>
+        <div class="input-box">
+            <div class="chat-name">
+                <input type="text" id="chatNameInput" placeholder="Digite o seu nome">
+                <button id="setChatName">Definir</button>
+            </div>
+            <div class="user-input">
+                <input type="text" id="userInput" placeholder="Digite uma pergunta" disabled>
+                <button id="sendMessage" disabled>Enviar</button>
+            </div>
+            <div class="qa-form">
+                <h2>Adicionar Pergunta e Resposta</h2>
+                <input type="text" id="newQuestion" placeholder="Nova pergunta">
+                <input type="text" id="newAnswer" placeholder="Nova resposta">
+                <button id="addQAButton">Adicionar</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
